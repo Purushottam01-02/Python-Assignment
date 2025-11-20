@@ -1,0 +1,9 @@
+inches = float(input("Enter measurement in inches: "))
+feet = inches / 12
+yards = inches / 36
+centimetres = inches * 2.54
+meters = inches / 39.37
+print("Feet ="  feet)
+print("Yards ="  yards)
+print("Centimetres ="  centimetres)
+print("Meters =" meters)
