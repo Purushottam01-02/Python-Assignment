@@ -1,0 +1,11 @@
+import math
+
+T = int(input())
+
+for _ in range(T):
+    X, Y = map(int, input().split())
+    
+    gcd_val = math.gcd(X, Y)
+    lcm_val = (X * Y) // gcd_val
+    
+    print(gcd_val, lcm_val)
