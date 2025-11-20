@@ -1,0 +1,8 @@
+import math
+radius = 42
+angle_degrees = 60
+angle_radians = math.radians(angle_degrees)
+arc_length = radius * angle_radians
+side = arc_length / 4
+area = side ** 2
+print("Area of Square =", area)
