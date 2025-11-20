@@ -1,0 +1,12 @@
+def reverse_num(x: int) -> int:
+    return int(str(x)[::-1])
+
+
+N = int(input())
+
+for _ in range(N):
+    a, b = map(int, input().split())
+    ra = reverse_num(a)
+    rb = reverse_num(b)
+    s = ra + rb
+    print(reverse_num(s))
