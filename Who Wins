@@ -1,0 +1,18 @@
+N = int(input())
+
+stones = N
+i = 1
+
+while stones > 0:
+    if stones <= i:
+        print("Ramesh")
+        break
+    stones -= i
+
+  
+    if stones <= 2 * i:
+        print("Suresh")
+        break
+    stones -= 2 * i
+
+    i += 1
